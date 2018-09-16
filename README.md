@@ -4,7 +4,7 @@ The structure of Vision Assist is as follows:
 
 templates folder consists of:
 
-blind.html : the main interface page for the emergency contacts\n 
+blind.html : the main interface page for the emergency contacts \n 
 map.html : displays the map with a marker showing the user's current location to the contacts
 register.html : page for the emergency contacts to register themselves 
 signin.html : page for the emergency contacts to sign in
