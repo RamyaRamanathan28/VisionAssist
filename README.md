@@ -27,12 +27,12 @@ email2.py : when the user informs the device about an emergency situation, the s
 
 Some of these run on the Pi, while some run on the server (laptop) 
 the main functions of the above scripts are : 
->object detection
->OCR
->Navigation
->weather report
->Image captioning
->Emergency Help
+object detection
+OCR
+Navigation
+weather report
+Image captioning
+Emergency Help
 
 Laptop and Pi both access the cloud, and upload/download files as needed.(egs rpi.py)  This is used for networking. 
 Cloud is also interfaced with pir front end for tracking and regular updates. 
