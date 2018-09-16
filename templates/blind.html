@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>EMERGENCY DETAILS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<style>
+.name{
+  font:Montserrat;
+  color:teal;
+  size: 100px
+  padding: 100px 100px 100px 100px;
+}
+.email{
+  font:Montserrat;
+  color:black;
+  size: 20px
+  padding: 20px 20px 20px 40px;
+}
+.authorization{
+  font:Montserrat;
+  color:black;
+  size: 30px
+  padding: 20px 20px 20px 40px;
+}
+.username{
+  font:Montserrat;
+  color:black;
+  size: 30px
+  padding: 20px 20px 20px 40px;
+}
+.address{
+  font:Montserrat;
+  color:black;
+  size: 30px
+  padding: 20px 20px 20px 40px;
+}
+.div{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body{
+background: url(https://subtlepatterns.com/patterns/scribble_light.png) #FFF;
+}
+</style>
+<body>
+
+  
+  <!-- Page Content -->
+  <div class="w3-black ">
+
+    <button class="w3-button w3-black w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+    <h1 style="text-align:left;font-weight:bold;">
+      EMERGENCY PAGE
+    <span style="float:right;size:5px">{{data}}'s Dashboard</span>
+  </h1>
+  </div>
+
+
+  <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button tablink w3-blue" id = 'btnrequest' onclick="location.href = '/dashboard'">Information</button>
+    <button class="w3-bar-item w3-button tablink" id = 'btncateg' onclick="location.href = '/map'">EMERGENCY</button>
+    <button class="w3-bar-item w3-button tablink " id = 'btnprod' onclick="location.href = '/track'">TRACK</button>
+    
+  </div>
+  <div id="catalog" class="w3-container w3-border city" style="display:block" font-family: "Roboto", sans-serif>
+  	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<div class="w3-half">
+          <div class="w3-half w3-hide-small">
+          <div class="w3-card-4 test" style="width=97%">
+            <header class="w3-container w3-blue">
+			<h1>DISTANCE FROM YOU</h1>
+			</header>
+              <div class="w3-container">
+                  <h3>{{data1}}<br></h3>
+              </div>
+			  <footer class ="w3-container w3-blue"></footer>
+            </div>
+          </div>
+        </div>
+		<div class="w3-half">
+          <div class="w3-half w3-hide-small">
+          <div class="w3-card-4 test" style="width=97%">
+            <header class="w3-container w3-blue">
+			<h1>DURATION FROM YOU</h1>
+			</header>
+              <div class="w3-container">
+                  <h3>{{data2}}<br></h3>
+              </div>
+			  <footer class ="w3-container w3-blue"></footer>
+            </div>
+          </div>
+        </div>
+	</div>
+
+
+</script>
+</html>
