@@ -1,4 +1,4 @@
-#VISION ASSIST
+# Vision Assist
 
 The structure of Vision Assist is as follows:
 
