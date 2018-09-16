@@ -1,3 +1,7 @@
+#VISION ASSIST
+
+The structure of Vision Assist is as follows:
+
 templates folder consists of:
 
 blind.html : the main interface page for the emergency contacts 
